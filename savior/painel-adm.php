@@ -149,7 +149,7 @@
                             </div>
                             <div class="modal-body">
                                 <div class="col-8 bg-white text-left p-2">
-                                    <form action="../usuarios/alteraSenha.php" method="post">
+                                    <form action="alteraSenha.php" method="post">
                                         <div class="form-group">
                                             <p class="text-start">Matrícula:</p>
                                             <input type="text" class="form-control shadow-sm" placeholder="Digite a matrícula" name="matricula">
