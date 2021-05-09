@@ -1,5 +1,5 @@
 <?php
-    include("../banco/banco.php");
+    include("banco/banco.php");
 
     $matricula   = $_POST["matricula"];
     $novaSenha   = $_POST["novaSenha"];
@@ -10,9 +10,9 @@
 
     if($novaSenha == $contraSenha){
         $query = pg_query($conexao, $update);
-        header('Location: ../painel-adm.php');
+        header('Location: painel-adm.php');
     }else{
-        header('Location: ../painel-adm.php');
+        header('Location: painel-adm.php');
     }
     
 
