@@ -117,7 +117,7 @@
                             </div>
                             <div class="modal-body">
                                 <div class="col-8 bg-white text-left p-2">
-                                    <form action="../mensagens/cadastroMensagem.php" method="post">
+                                    <form action="cadastroMensagem.php" method="post">
                                         <div class="form-group">
                                             <p class="text-start">Descrição:</p>
                                             <textarea type="text" class="form-control shadow-sm" placeholder="Descrição da mensagem" name="msg"></textarea>

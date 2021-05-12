@@ -1,6 +1,6 @@
 <?php
-    include("../banco/banco.php");  
-    include("../usuarios/verifica-login-adm.php");
+    include("banco/banco.php");  
+    include("verifica-login-adm.php");
 
     if(!$_SESSION['matricula']){
        session_start();
@@ -28,7 +28,7 @@
     try{
         $query2 = pg_query($conexao, $insert);
         if($query2){           
-            header('Location:../painel-adm.php');
+            header('Location:painel-adm.php');
         }else{
             echo "<script>alert('Falha ao enviar Mensagem')</script>";
         }
