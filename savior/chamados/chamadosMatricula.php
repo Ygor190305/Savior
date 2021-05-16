@@ -212,7 +212,7 @@
                             echo $alteracao;
                         echo "</td>";
                         echo "<td>";
-                            echo "<a href='vizualizaChamado.php?nu_chamado=$id_chamado'>Vizualizar</a>";
+                            echo "<a href='vizualizaChamadoUsuario.php?nu_chamado=$id_chamado'>Vizualizar</a>";
                         echo "</td>";
                     echo "</tr>";
                 }

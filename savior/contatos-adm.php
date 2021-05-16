@@ -15,7 +15,7 @@
 
     <header>
         <nav class="navbar navbar-primary bg-dark">
-            <a class="navbar-brand offset-1 text-white" href="painel-usuario.php">
+            <a class="navbar-brand offset-1 text-white" href="painel-adm.php">
                 <img src="img/fone.png"  width="40px" height="40px" class="d-inline-block align-top" alt="Savior">
                 <h3  class="d-inline-block align-top" >Savior</h3>
             </a>

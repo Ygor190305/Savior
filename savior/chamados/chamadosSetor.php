@@ -229,7 +229,7 @@
                                                 echo "<a href='retornaChamado.php?nu_chamado=$id_chamado'>Editar</a>";
                                             echo "</td>";
                                             echo "<td>";
-                                                echo "<a href='vizualizaChamado.php?nu_chamado=$id_chamado'>Vizualizar</a>";
+                                                echo "<a href='vizualizaChamadoAdm.php?nu_chamado=$id_chamado'>Vizualizar</a>";
                                             echo "</td>";
                                         echo "</tr>";
                                     }
