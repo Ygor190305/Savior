@@ -27,7 +27,7 @@
     </header>
     <section class="container">
     <br>
-    <h1>Atualização do chamado</h1>
+    <h1>Vizualizar chamado</h1>
     <br>
         <?php
             $nu_chamado = $_GET['nu_chamado'];
